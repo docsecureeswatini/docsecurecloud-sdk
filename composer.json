@@ -1,0 +1,22 @@
+{
+    "name": "docsecure/sdk",
+    "description": "An SDK for Docsecure API",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^7.9",
+        "guzzlehttp/psr7": "^2.7"
+    },
+    "license": "proprietary",
+    "autoload": {
+        "psr-4": {
+            "Docsecure\\Sdk\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "docsecureeswatini",
+            "email": "systems@docsecuresd.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
